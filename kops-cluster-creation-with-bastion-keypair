@@ -6,7 +6,11 @@
          ; perform this activity by root user 
                 sudo  useradd <username>
                 sudo  useradd admin
-                 
+
+-  ON RHEL/CENTOS/FEDORA, YOU MAY NEED TO SET A PASSWORD SEPARATELY:  CHANGE PASSWORD :-  
+               
+            sudo passwd <username>
+            sudo passwd admin
                
          ;  add existing user to wheel group 
                
