@@ -16,7 +16,7 @@
          ;  use multi execution mode in mobaexterm  and multi paste cmd. it means below cmd execute on master as well as worker node . 
                
                sudo apt-get update
-               sudo apt-get install -y apt-transport-https ca-certificates curl gpg
+               sudo apt-get install -y apt-transport-https ca-certificates curl gpg  conntrack
                   
                   # If the directory "/etc/apt/keyrings" does not exist, it should be created before the curl command, read the note below.
                   # sudo mkdir -p -m 755 /etc/apt/keyrings
